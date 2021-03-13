@@ -10,6 +10,7 @@ align-items: center;
 justify-content: center;
 perspective: 1000px;
 font-family: Arial, Helvetica, sans-serif;
+background: black;
 }
 
 .container{
@@ -47,4 +48,44 @@ img{
     width:100%;
     height: 100%;
     border-radius: 30px;
+}
+
+.loading{
+    transition: all 1s ease;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: black;
+    z-index: 1;
+}
+
+.loading h1{
+    width: 100%;
+    text-align: center;
+    color: rgb(160, 100, 0);
+    margin: 0;
+    position: absolute;
+    top: 40%;
+}
+.loading b{
+    width: 100%;
+    text-align: center;
+    color: rgb(160, 100, 0);
+    margin: 0;
+    position: absolute;
+    top: 50%;
+}
+
+.loads {
+    border: rgb(87, 52, 0);
+    border-style: solid;
+    border-width: thin;
+    background: rgb(14, 14, 14);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    
 }

@@ -2,21 +2,33 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3Devil</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <script src="./main.js"></script>
     <div class="container">
         <div class="card">
-
             <div class="imagens">
-                <img src="./img/fundo.png" class="fundo">   
-                <img src="./img/circ.png" class="circ">
-                <img src="./img/pedras.png" class="pedras">
-                <img src="./img/diabo.png" class="diabo">
-                <img src="./img/cara.png" class="cara">
+                <img src="./img/fundo.png" class="fundo" onload="onLoad()">   
+                <img src="./img/circ.png" class="circ" onload="onLoad()">
+                <img src="./img/pedras.png" class="pedras" onload="onLoad()">
+                <img src="./img/diabo.png" class="diabo" onload="onLoad()">
+                <img src="./img/cara.png" class="cara" onload="onLoad()">
             </div>
         </div>
     </div>
-    <script src="./main.js"></script>
+
+
+    <div class="loading container">
+        <div class="card">
+            <div class="loads">
+                <h1 class="teste">LOADING</h1>
+                <b>By Vitor Portela Lima</b>
+            </div>
+        </div>
+    </div>
+    <script src="./anin.js"></script>
+
 </body>
