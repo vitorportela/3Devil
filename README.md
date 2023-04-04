@@ -1,10 +1,11 @@
 # ❤ Projeto 3Devil
 
-Projeto pessoal no momento ainda em andamento
+Projeto pessoal no momento ainda em andamento.
 
 ## 💡 Sobre:
 
-A ideia do projeto eh criar uma imagem 3d que se move de acordo com o posicionamento do mouse
+A ideia do projeto seria criar uma imagem 3d que se move de acordo com o posicionamento do mouse.
+Porem por algum motivo parou de funcionar e eu nao tive tempo de arrumar ainda 🤡.
 
 [Post no linkedin](https://www.linkedin.com/posts/vitor-portela_projeto-de-fim-de-semana-uma-imagem-3d-animada-activity-6776655818990346240-ev6T?utm_source=share&utm_medium=member_desktop)
 
